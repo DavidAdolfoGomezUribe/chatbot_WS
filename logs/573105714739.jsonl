@@ -1,0 +1,9 @@
+{"at":"2025-09-10T21:57:53.413Z","direction":"inbound","number":"573105714739","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-10T21:57:53.414Z","direction":"outbound","number":"573105714739","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-10T21:57:54.461Z","direction":"inbound","number":"573105714739","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured"}}
+{"at":"2025-09-10T21:57:54.476Z","direction":"inbound","number":"573105714739","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-10T21:57:54.477Z","direction":"outbound","number":"573105714739","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-10T21:57:55.252Z","direction":"inbound","number":"573105714739","body":"a","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-10T21:58:45.253Z","direction":"inbound","number":"573105714739","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-10T21:58:45.252Z","direction":"inbound","number":"573105714739","body":"b","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-10T21:58:45.253Z","direction":"outbound","number":"573105714739","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}

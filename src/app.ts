@@ -3,6 +3,7 @@ import { createBot, createProvider, createFlow, addKeyword, utils } from '@build
 import { MemoryDB as Database } from '@builderbot/bot'
 import { MetaProvider as Provider } from '@builderbot/provider-meta'
 import { log } from 'console'
+import { logInbound, logOutbound } from './services/conversation.service.js'
 import * as dotenv from 'dotenv'
 
 dotenv.config()
@@ -10,25 +11,33 @@ dotenv.config()
 const PORT = process.env.PORT ?? 3008
 
 const loggerFlow = addKeyword<Provider, Database>([''])
-  .addAction(async (ctx) => {
-    log(ctx)
-    log('📩 Mensaje entrante:', ctx.from, '->', ctx.body)
-  })
+    .addAction(async (ctx) => {
+        // Guarda mensaje ENTRANTE
+        await logInbound(ctx, { flowTag: 'loggerFlow' })
+        log('📩 IN:', ctx.from, '->', ctx.body)
+    })
 
 
+const WELCOME_MSG = '🙌 Hola bienvenido a este chatbot'
 
 const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'])
-    .addAnswer(`🙌 Hola bienvenido a este chatbot`,{capture:true}, async (ctx)=>{
-        log(ctx.body)
-    } )
+  .addAction(async (ctx) => {
+    await logInbound(ctx, { flowTag: 'welcomeFlow', meta: { stage: 'trigger' } })
+    // Registramos también el SALIENTE del saludo
+    await logOutbound(ctx.from, WELCOME_MSG, null, { flowTag: 'welcomeFlow' })
+  })
+  .addAnswer(
+    WELCOME_MSG,
+    { capture: true },
+    async (ctx) => {
+      await logInbound(ctx, { flowTag: 'welcomeFlow', meta: { stage: 'captured' } })
+    }
+  )
 
-
-
-    
 const main = async () => {
     const adapterFlow = createFlow([welcomeFlow, loggerFlow])
     const adapterProvider = createProvider(Provider, {
-        jwtToken: process.env.jwtToken ,
+        jwtToken: process.env.jwtToken,
         numberId: process.env.numberId,
         verifyToken: process.env.verifyToken,
         version: 'v22.0'
@@ -42,38 +51,6 @@ const main = async () => {
         database: adapterDB,
     })
 
-    adapterProvider.server.post(
-        '/v1/messages',
-        handleCtx(async (bot, req, res) => {
-            const { number, message, urlMedia } = req.body
-            await bot.sendMessage(number, message, { media: urlMedia ?? null })
-            return res.end('sended')
-        })
-    )
-
-    adapterProvider.server.post('/v1/register',handleCtx(async (bot, req, res) => {
-            const { number, name } = req.body
-            await bot.dispatch('REGISTER_FLOW', { from: number, name })
-            return res.end('trigger')
-        })
-    )
-
-    adapterProvider.server.post('/v1/samples',handleCtx(async (bot, req, res) => {
-            const { number, name } = req.body
-            await bot.dispatch('SAMPLES', { from: number, name })
-            return res.end('trigger')
-        })
-    )
-
-    adapterProvider.server.post('/v1/blacklist',handleCtx(async (bot, req, res) => {
-            const { number, intent } = req.body
-            if (intent === 'remove') bot.blacklist.remove(number)
-            if (intent === 'add') bot.blacklist.add(number)
-
-            res.writeHead(200, { 'Content-Type': 'application/json' })
-            return res.end(JSON.stringify({ status: 'ok', number, intent }))
-        })
-    )
 
     httpServer(+PORT)
 }
