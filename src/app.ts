@@ -2,19 +2,31 @@
 import { createBot, createProvider, createFlow, addKeyword, utils } from '@builderbot/bot'
 import { MemoryDB as Database } from '@builderbot/bot'
 import { MetaProvider as Provider } from '@builderbot/provider-meta'
+import { log } from 'console'
 import * as dotenv from 'dotenv'
 
 dotenv.config()
 
 const PORT = process.env.PORT ?? 3008
 
+const loggerFlow = addKeyword<Provider, Database>([''])
+  .addAction(async (ctx) => {
+    log(ctx)
+    log('📩 Mensaje entrante:', ctx.from, '->', ctx.body)
+  })
+
 
 
 const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'])
-    .addAnswer(`🙌 Hola bienvenido a este chatbot`)
+    .addAnswer(`🙌 Hola bienvenido a este chatbot`,{capture:true}, async (ctx)=>{
+        log(ctx.body)
+    } )
+
+
+
     
 const main = async () => {
-    const adapterFlow = createFlow([welcomeFlow])
+    const adapterFlow = createFlow([welcomeFlow, loggerFlow])
     const adapterProvider = createProvider(Provider, {
         jwtToken: process.env.jwtToken ,
         numberId: process.env.numberId,
