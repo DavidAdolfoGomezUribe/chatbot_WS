@@ -23,6 +23,7 @@ export interface ProductsResponse {
 }
 
 export async function fetchProducts(): Promise<ProductsResponse> {
-  // Tu backend devuelve { products: [...], total }
-  return http<ProductsResponse>({ path: '/products' })
+  // Tu backend debe responder { products: [...], total }
+  // Usamos /products/ (con slash final) para mayor compatibilidad.
+  return http<ProductsResponse>({ path: '/products/' })
 }

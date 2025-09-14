@@ -3,11 +3,12 @@ import { addKeyword } from '@builderbot/bot'
 import { MemoryDB as Database } from '@builderbot/bot'
 import type { MetaProvider as Provider } from '@builderbot/provider-meta'
 import { logInbound, logOutbound } from '../../services/conversation.service'
+import { productsFlow } from './products.flow'
 
 const WELCOME_MSG =
   '🍏 Bienvenido(a) a Apple Store.\n' +
   'Nos alegra atenderte. Elige una opción para continuar:\n' +
-  '• 🛍️ Ver productos (placeholder)\n' +
+  '• 🛍️ Ver productos\n' +
   '• 🏠 Página principal: https://google.com'
 
 export const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'])
@@ -19,16 +20,17 @@ export const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'
     WELCOME_MSG,
     {
       capture: true,
-      // Botones de respuesta rápida (placeholders)
       buttons: [
         { body: '🛍️ Ver productos' },
         { body: '🏠 Página principal' },
       ],
     },
-    async (ctx) => {
-      // Solo dejamos trazabilidad por ahora (placeholders)
+    async (ctx, { gotoFlow }) => {
       await logInbound(ctx, { flowTag: 'welcomeFlow', meta: { stage: 'captured', selection: ctx.body } })
-      // En este punto, cuando implementes el catálogo o la navegación,
-      // podrás rutear según ctx.body (e.g., a un productsFlow o enviar URL dinámica).
+      const t = (ctx.body || '').toLowerCase().trim()
+      if (t.includes('producto') || t === '🛍️ ver productos' || t === 'products' || t === 'producs') {
+        return gotoFlow(productsFlow)
+      }
+      return 'Puedes escribir *productos* para ver el catálogo o toca el botón.'
     }
   )

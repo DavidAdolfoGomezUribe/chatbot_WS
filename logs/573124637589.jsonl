@@ -42,3 +42,152 @@
 {"at":"2025-09-14T15:39:48.994Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
 {"at":"2025-09-14T16:07:28.688Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
 {"at":"2025-09-14T16:07:28.688Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:18:20.264Z","direction":"inbound","number":"573124637589","body":"hello","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:18:20.265Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:18:21.245Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:18:21.245Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:19:01.493Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:19:01.494Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:20:02.037Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"hi"}}
+{"at":"2025-09-14T16:20:02.053Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:20:02.054Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:20:12.768Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"hi"}}
+{"at":"2025-09-14T16:20:12.783Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:20:12.784Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:36:43.366Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:36:43.367Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:36:49.729Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:36:49.744Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:37:01.270Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:37:01.271Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:37:11.239Z","direction":"inbound","number":"573124637589","body":"categoria","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"categoria"}}
+{"at":"2025-09-14T16:37:11.254Z","direction":"inbound","number":"573124637589","body":"categoria","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T16:37:45.337Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:38:29.021Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:38:29.022Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:38:34.502Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:38:34.517Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:38:52.485Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:38:52.486Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:38:57.754Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:38:57.768Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:45:18.955Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:45:18.955Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:45:24.091Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:45:24.105Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:46:02.247Z","direction":"inbound","number":"573124637589","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:46:02.249Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:46:07.374Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:46:07.383Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:46:39.863Z","direction":"inbound","number":"573124637589","body":"Ipa","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T16:46:44.242Z","direction":"inbound","number":"573124637589","body":"Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T16:46:51.103Z","direction":"inbound","number":"573124637589","body":"ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T16:51:33.332Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:51:33.333Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:51:37.980Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:51:37.995Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T16:54:53.881Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:54:53.882Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T16:55:00.605Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T16:55:00.611Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T17:00:36.590Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:00:36.591Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:00:40.616Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:00:40.631Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T17:01:59.300Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:01:59.301Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:02:02.547Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:02:02.555Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T17:03:34.444Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:03:34.445Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:03:37.948Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:03:37.963Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T17:04:59.347Z","direction":"inbound","number":"573124637589","body":"productos","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T17:05:13.493Z","direction":"inbound","number":"573124637589","body":"Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:06:17.869Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:06:17.870Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:06:21.782Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:06:22.721Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter"}}
+{"at":"2025-09-14T17:06:39.059Z","direction":"inbound","number":"573124637589","body":"Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:07:29.072Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:09:06.070Z","direction":"inbound","number":"573124637589","body":"Hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:09:06.071Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:09:10.847Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:09:11.935Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:11:37.795Z","direction":"inbound","number":"573124637589","body":"productos","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"productos"}}
+{"at":"2025-09-14T17:23:04.305Z","direction":"inbound","number":"573124637589","body":"1","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:23:07.850Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:23:07.851Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:23:12.062Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:23:13.076Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"stage":"enter","trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:27:28.319Z","direction":"inbound","number":"573124637589","body":"Hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:27:28.320Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:27:33.615Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:27:34.883Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:28:05.107Z","direction":"inbound","number":"573124637589","body":"Accessories","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:28:14.758Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:28:14.758Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:30:50.809Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:31:01.784Z","direction":"inbound","number":"573124637589","body":"cat:Accessories","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:43:23.818Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T17:43:23.819Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T17:43:29.871Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:43:29.886Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T17:43:42.112Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T17:44:32.115Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T21:48:24.472Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T21:48:24.472Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T21:48:29.364Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T21:48:29.379Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T21:48:39.052Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T21:49:29.053Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T21:58:51.879Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T21:58:51.880Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T21:58:58.247Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T21:58:58.249Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T21:59:07.373Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T21:59:57.377Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:07:11.070Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:07:11.071Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:07:15.376Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:07:15.391Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:07:27.819Z","direction":"inbound","number":"573124637589","body":"cat:Iphone","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:09:13.400Z","direction":"inbound","number":"573124637589","body":"1","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:09:20.727Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:09:20.727Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:09:24.982Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:09:24.997Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:09:34.089Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:10:24.100Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:17:25.641Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:17:25.643Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:17:31.797Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:17:31.813Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:17:41.635Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:18:31.646Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:20:48.575Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:20:48.576Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:20:52.541Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:20:52.556Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:21:00.791Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:21:50.802Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:24:21.417Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:24:21.417Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:24:26.011Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:24:26.026Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:24:33.381Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:25:23.386Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:25:37.074Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:26:45.825Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:26:52.768Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:26:52.769Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:26:56.622Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:26:56.637Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:27:05.552Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:27:55.555Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:32:41.626Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T22:32:41.627Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T22:32:45.932Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:32:45.947Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"productsFlow","meta":{"trigger":"🛍️ Ver producto"}}
+{"at":"2025-09-14T22:32:54.355Z","direction":"inbound","number":"573124637589","body":"cat:Ipad","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T22:33:44.365Z","direction":"inbound","number":"573124637589","body":"prod:13","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
