@@ -1,58 +1,27 @@
-
-import { createBot, createProvider, createFlow, addKeyword, utils } from '@builderbot/bot'
-import { MemoryDB as Database } from '@builderbot/bot'
-import { MetaProvider as Provider } from '@builderbot/provider-meta'
-import { log } from 'console'
-import { logInbound, logOutbound } from './services/conversation.service.js'
+// src/app.ts
 import * as dotenv from 'dotenv'
-
 dotenv.config()
+
+// Importamos la función que inicializa el bot
+import { startBot } from './bot/index.js'
 
 const PORT = process.env.PORT ?? 3008
 
-const loggerFlow = addKeyword<Provider, Database>([''])
-    .addAction(async (ctx) => {
-        // Guarda mensaje ENTRANTE
-        await logInbound(ctx, { flowTag: 'loggerFlow' })
-        log('📩 IN:', ctx.from, '->', ctx.body)
-    })
+// Mantengo los comentarios de referencia
+// async function getdata() {
+//   // const data = (await fetch("http://localhost:8000/products/")).json()
+//   // log(await data)
+//   return ((await fetch("http://localhost:8000/products/")).json())
+// }
 
+async function main() {
+  // Inicializa el bot con los flows registrados
+  const { provider } = await startBot()
 
-const WELCOME_MSG = '🙌 Hola bienvenido a este chatbot'
+  // Si quieres enviar mensajes manualmente fuera de los flows:
+  // await provider.sendMessage('573001234567', 'Hola desde backend 👋')
 
-const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'])
-  .addAction(async (ctx) => {
-    await logInbound(ctx, { flowTag: 'welcomeFlow', meta: { stage: 'trigger' } })
-    // Registramos también el SALIENTE del saludo
-    await logOutbound(ctx.from, WELCOME_MSG, null, { flowTag: 'welcomeFlow' })
-  })
-  .addAnswer(
-    WELCOME_MSG,
-    { capture: true },
-    async (ctx) => {
-      await logInbound(ctx, { flowTag: 'welcomeFlow', meta: { stage: 'captured' } })
-    }
-  )
-
-const main = async () => {
-    const adapterFlow = createFlow([welcomeFlow, loggerFlow])
-    const adapterProvider = createProvider(Provider, {
-        jwtToken: process.env.jwtToken,
-        numberId: process.env.numberId,
-        verifyToken: process.env.verifyToken,
-        version: 'v22.0'
-    })
-
-    const adapterDB = new Database()
-
-    const { handleCtx, httpServer } = await createBot({
-        flow: adapterFlow,
-        provider: adapterProvider,
-        database: adapterDB,
-    })
-
-
-    httpServer(+PORT)
+  console.log(`🤖 Bot corriendo en el puerto ${PORT}`)
 }
 
 main()

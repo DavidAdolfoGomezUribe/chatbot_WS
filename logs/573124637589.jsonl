@@ -6,3 +6,39 @@
 {"at":"2025-09-10T21:52:53.464Z","direction":"inbound","number":"573124637589","body":"esto es una prueba","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
 {"at":"2025-09-10T21:52:58.808Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
 {"at":"2025-09-10T21:52:58.809Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-13T18:57:18.822Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-13T18:57:18.822Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T13:22:36.612Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured"}}
+{"at":"2025-09-14T13:22:36.627Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T13:22:36.627Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T13:23:29.296Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T13:23:29.297Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T13:23:57.198Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T13:23:57.199Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T14:48:36.322Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T14:48:36.323Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T14:49:49.041Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T14:49:49.042Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T14:50:16.540Z","direction":"inbound","number":"573124637589","body":"hello","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T14:50:16.541Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T14:51:00.275Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T14:51:00.276Z","direction":"outbound","number":"573124637589","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T14:56:54.299Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T14:56:54.300Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T14:57:29.930Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T14:57:29.944Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T14:57:33.745Z","direction":"inbound","number":"573124637589","body":"🏠 Página princi","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T15:35:26.371Z","direction":"inbound","number":"573124637589","body":"hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T15:35:26.372Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T15:35:36.931Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T15:35:36.946Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T15:38:47.013Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T15:38:47.014Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T15:39:04.357Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T15:39:04.373Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T15:39:43.543Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T15:39:43.544Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-14T15:39:48.978Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-14T15:39:48.994Z","direction":"inbound","number":"573124637589","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
+{"at":"2025-09-14T16:07:28.688Z","direction":"inbound","number":"573124637589","body":"hi","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-14T16:07:28.688Z","direction":"outbound","number":"573124637589","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos (placeholder)\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
