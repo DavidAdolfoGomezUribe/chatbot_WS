@@ -7,3 +7,7 @@
 {"at":"2025-09-10T21:58:45.253Z","direction":"inbound","number":"573105714739","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
 {"at":"2025-09-10T21:58:45.252Z","direction":"inbound","number":"573105714739","body":"b","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}
 {"at":"2025-09-10T21:58:45.253Z","direction":"outbound","number":"573105714739","body":"🙌 Hola bienvenido a este chatbot","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-15T02:17:56.232Z","direction":"inbound","number":"573105714739","body":"Hola","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"trigger"}}
+{"at":"2025-09-15T02:17:56.233Z","direction":"outbound","number":"573105714739","body":"🍏 Bienvenido(a) a Apple Store.\nNos alegra atenderte. Elige una opción para continuar:\n• 🛍️ Ver productos\n• 🏠 Página principal: https://google.com","mediaUrl":null,"flowTag":"welcomeFlow","meta":{}}
+{"at":"2025-09-15T02:18:05.393Z","direction":"inbound","number":"573105714739","body":"🛍️ Ver producto","mediaUrl":null,"flowTag":"welcomeFlow","meta":{"stage":"captured","selection":"🛍️ Ver producto"}}
+{"at":"2025-09-15T02:19:48.683Z","direction":"inbound","number":"573105714739","body":"limonadita","mediaUrl":null,"flowTag":"loggerFlow","meta":{}}

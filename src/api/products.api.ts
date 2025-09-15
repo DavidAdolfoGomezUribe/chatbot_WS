@@ -27,3 +27,8 @@ export async function fetchProducts(): Promise<ProductsResponse> {
   // Usamos /products/ (con slash final) para mayor compatibilidad.
   return http<ProductsResponse>({ path: '/products/' })
 }
+
+export async function fetchProductById(id: number | string): Promise<Product> {
+  // Usamos slash final por compatibilidad con backends que redirigen
+  return http<Product>({ path: `/products/${id}/` })
+}

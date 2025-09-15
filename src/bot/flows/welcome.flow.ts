@@ -3,7 +3,8 @@ import { addKeyword } from '@builderbot/bot'
 import { MemoryDB as Database } from '@builderbot/bot'
 import type { MetaProvider as Provider } from '@builderbot/provider-meta'
 import { logInbound, logOutbound } from '../../services/conversation.service'
-import { productsFlow } from './products.flow'
+import { categoryFlow } from './category.flow'
+
 
 const WELCOME_MSG =
   '🍏 Bienvenido(a) a Apple Store.\n' +
@@ -25,11 +26,12 @@ export const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'
         { body: '🏠 Página principal' },
       ],
     },
+
     async (ctx, { gotoFlow }) => {
       await logInbound(ctx, { flowTag: 'welcomeFlow', meta: { stage: 'captured', selection: ctx.body } })
       const t = (ctx.body || '').toLowerCase().trim()
       if (t.includes('producto') || t === '🛍️ ver productos' || t === 'products' || t === 'producs') {
-        return gotoFlow(productsFlow)
+        return gotoFlow(categoryFlow)
       }
       return 'Puedes escribir *productos* para ver el catálogo o toca el botón.'
     }

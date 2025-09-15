@@ -6,7 +6,9 @@ import { logInbound } from '~/services/conversation.service'
 import { log } from 'console'
 
 import { welcomeFlow } from './flows/welcome.flow'
-import { productsFlow } from './flows/products.flow'
+import { categoryFlow } from './flows/category.flow'
+import {producsFlow}from "./flows/products.flow"
+import  {detailedProduct}  from "./flows/detailedProduct.flow"
 
 
 const loggerFlow = addKeyword<Provider, Database>([''])
@@ -19,7 +21,7 @@ const loggerFlow = addKeyword<Provider, Database>([''])
 
 
 export async function startBot() {
-    const adapterFlow = createFlow([welcomeFlow, productsFlow,loggerFlow])
+    const adapterFlow = createFlow([welcomeFlow, categoryFlow,producsFlow,detailedProduct,loggerFlow])
     const adapterProvider = createProvider(Provider, {
         jwtToken: process.env.jwtToken,
         numberId: process.env.numberId,
