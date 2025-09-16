@@ -23,7 +23,7 @@ export const categoryFlow = addKeyword<Provider, Database>([
     title: cat,
     description: `Ver productos de ${cat}`,
   }))
-
+  // log(ctx)
   await provider.sendList(ctx.from, {
     header: { type: 'text', text: '🛍️ Catálogo Apple' },
     body:   { text: 'Selecciona una categoría para ver productos' },

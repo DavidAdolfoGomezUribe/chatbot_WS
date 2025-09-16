@@ -9,11 +9,11 @@ import { startBot } from './bot/index.js'
 const PORT = process.env.PORT ?? 3008
 
 
- async function getdata() {
-    const data = (await fetch("http://localhost:8000/products/")).json()
-    log(await data)
-  return ((await fetch("http://localhost:8000/products/")).json())
- }
+//  async function getdata() {
+//     const data = (await fetch("http://localhost:8000/products/")).json()
+//     log(await data)
+//   return ((await fetch("http://localhost:8000/products/")).json())
+//  }
 
 async function main() {
   // Inicializa el bot con los flows registrados
